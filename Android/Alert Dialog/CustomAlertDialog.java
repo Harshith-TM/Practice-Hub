@@ -48,11 +48,7 @@ public class CustomAlertDialog extends AppCompatActivity {
         submitButtom.setOnClickListener(v -> {
             String name = userName.getText().toString();
 
-            Toast.makeText(
-                    MainActivity.this,
-                    "Hello " + name,
-                    Toast.LENGTH_SHORT
-            ).show();
+            Toast.makeText(CustomAlertDialog.this,"Hello " + name,Toast.LENGTH_SHORT).show();
 
             dialog.dismiss();
         });
