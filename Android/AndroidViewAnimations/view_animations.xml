@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/night"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ViewAnimations">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/hi_gesture" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/blink_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/imperial"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/Blink"
+            android:textColor="@color/night"
+            android:textSize="16sp"
+            app:cornerRadius="8dp" />
+
+        <Button
+            android:id="@+id/fade_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/imperial"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/Fade"
+            android:textColor="@color/night"
+            android:textSize="16sp"
+            app:cornerRadius="8dp" />
+
+        <Button
+            android:id="@+id/move_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/imperial"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/Move"
+            android:textColor="@color/night"
+            android:textSize="16sp"
+            app:cornerRadius="8dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rotate_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/imperial"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/Rotate"
+            android:textColor="@color/night"
+            android:textSize="16sp"
+            app:cornerRadius="8dp" />
+
+        <Button
+            android:id="@+id/zoom_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/imperial"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/Zoom"
+            android:textColor="@color/night"
+            android:textSize="16sp"
+            app:cornerRadius="8dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/StopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/imperial"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/Stop_Animation"
+        android:textColor="@color/night"
+        android:textSize="16sp"
+        app:cornerRadius="8dp" />
+
+</LinearLayout>
+
+    <!--
+    Android View Animations
+    View animations are a legacy animation system used to apply visual effects to a View
+     Such as:
+      >Moving (translate)
+      >Rotating
+      >Scaling (zoom in/out)
+      >Fading (alpha)
+
+    These animations affect how the view is drawn on the screen,
+    but they do not change the view's actual layout position or size in the view hierarchy.
+    -->
+
+    <!--
+    String
+        <string name="Blink">Blink</string>
+        <string name="Fade">Fade</string>
+        <string name="Move">Move</string>
+        <string name="Rotate">Rotate</string>
+        <string name="Zoom">Zoom</string>
+        <string name="Stop_Animation">Stop Animation</string>
+    -->
