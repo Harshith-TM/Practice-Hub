@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/night"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/ShowBottomSheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/imperial"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="@string/Show_Bottom_Sheet"
+        android:textColor="@color/night"
+        android:textSize="16sp"
+        app:cornerRadius="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/Text_Entered"
+        android:textColor="@color/imperial"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/BottomSheetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text=""
+        android:textColor="@color/imperial"
+        android:textSize="18sp" />
+
+</LinearLayout>
+
+<!--
+A Bottom Sheet is a panel that slides up from the bottom of the screen to
+display additional content or actions without navigating to a new screen.
+-->
+
+<!--Strings
+    <string name="Bottom_Sheet_Title">Bottom Sheet</string>
+    <string name="Close_Bottom_Sheet">Close Bottom Sheet</string>
+    <string name="Show_Bottom_Sheet">Show Bottom Sheet</string>
+    <string name="Enter_Text">Enter Text</string>
+    <string name="Enter_Any_Text">Enter Any Text</string>
+    <string name="Text_Entered">Text Entered From Bottom Sheet</string>
+-->
