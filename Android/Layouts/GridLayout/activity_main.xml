@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/night"
+    android:columnCount="2"
+    android:padding="40dp"
+    android:rowCount="4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/TextView1"
+        android:textAlignment="center"
+        android:textColor="@color/imperial"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/TextView2"
+        android:textAlignment="center"
+        android:textColor="@color/imperial"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/imperial"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/Button1"
+        android:textColor="@color/night"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/imperial"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/Button2"
+        android:textColor="@color/night"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/TextView3"
+        android:textAlignment="center"
+        android:textColor="@color/imperial"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/TextView4"
+        android:textAlignment="center"
+        android:textColor="@color/imperial"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/imperial"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/Button3"
+        android:textColor="@color/night"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/imperial"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/Button4"
+        android:textColor="@color/night"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</GridLayout>
+
+<!--GridLayout: A layout that arranges UI elements in a grid of rows and columns.-->
