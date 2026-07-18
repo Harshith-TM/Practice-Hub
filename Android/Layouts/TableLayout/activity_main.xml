@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/night"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:background="@drawable/table_border"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/EditText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:autofillHints=""
+            android:fontFamily="@font/montserrat"
+            android:hint="@string/EnterText"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textColor="@color/imperial"
+            android:textColorHint="@color/imperial"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/EditText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:autofillHints=""
+            android:fontFamily="@font/montserrat"
+            android:hint="@string/EnterText"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textColor="@color/imperial"
+            android:textColorHint="@color/imperial"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@drawable/table_border"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/TextView1"
+            android:textAlignment="center"
+            android:textColor="@color/imperial"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/TextView2"
+            android:textAlignment="center"
+            android:textColor="@color/imperial"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@drawable/table_border"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/Button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/imperial"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/ButtonEnter"
+            android:textColor="@color/night"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="@color/imperial"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/ButtonEnter"
+            android:textColor="@color/night"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+</TableLayout>
+
+<!--Table Layout: A TableLayout arranges child views into rows and columns.
+Each row is represented by a TableRow, and the views inside a TableRow become the columns.-->
