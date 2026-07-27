@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/night"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="@string/RecyclerView"
+        android:textAlignment="center"
+        android:textColor="@color/imperial"
+        android:textSize="32sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp" />
+
+</LinearLayout>
+
+    <!--
+    RecyclerView is a view that displays a list by reusing the item views
+    that have scrolled off the screen instead of creating new ones every time.
+
+    Imagine having a list of 1,000 contacts.
+    Without recycling, Android would create 1,000 views, which uses a lot of memory.
+    With RecyclerView, if only 10 items fit on the screen, Android creates about 10–12 views.
+    As you scroll, it reuses (recycles) those same views and replaces their contents with new data.
+    -->
