@@ -15,12 +15,12 @@ fun main() {
 }
 class ArrayRotation{
     fun RightRotate(array:Array<Int>) {
-        val arraySize = array.size;
-        val lastElement = array[arraySize-1];
+        val arraySize = array.size
+        val lastElement = array[arraySize-1]
         for(i in arraySize-1 downTo 1) {
-            array[i] = array[i-1];
+            array[i] = array[i-1]
         }
-        array[0] = lastElement;
+        array[0] = lastElement
         println("${array.contentToString()}")
     }
     fun LeftRotate(array:Array<Int>) {
